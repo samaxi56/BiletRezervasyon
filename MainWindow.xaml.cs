@@ -23,6 +23,7 @@ namespace BiletRezervasyonu
         public MainWindow()
         {
             InitializeComponent();
+            ekran.Navigate(new Giris { babaEkran = this });
         }
     }
 }

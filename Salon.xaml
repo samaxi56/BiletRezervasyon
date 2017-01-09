@@ -70,10 +70,10 @@
                     <TextBox Name="iptal" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="1" Background="Bisque" Margin="5" Height="20"></TextBox>
                     <Button Name="sil" Grid.Row="6" Grid.Column="3" Background="Red" Margin="5" Click="sil_Click" Height="30">Rezerveİptal</Button>
                     
-                    <Label Name="lb1" Grid.Row="8" Grid.Column="1" Background="Green" Margin="5" Width="40">Boş</Label>
+                    <Label Name="lb1" Grid.Row="7" Grid.Column="3" Background="Green" Margin="5" Width="40">Boş</Label>
                     <Label Name="lb2" Grid.Row="8" Grid.Column="3" Background="Red" Margin="5" Width="40">Dolu</Label>
-                    <TextBox Name="bos" Grid.Row="8" Grid.Column="2" Height="20" Margin="5"></TextBox>
-                    <TextBox Name="dolu" Grid.Row="8" Grid.Column="4" Height="20" Margin="5"></TextBox>
+                    <Label Name="lb3" Grid.Row="7" Grid.Column="4" Height="20" Margin="5"></Label>
+                    <Label Name="lb4" Grid.Row="8" Grid.Column="4" Height="20" Margin="5"></Label>
                     
                     
                 </Grid>

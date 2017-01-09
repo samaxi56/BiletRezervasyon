@@ -55,7 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Salon.cs" />
     <Compile Include="Salon.xaml.cs">
       <DependentUpon>Salon.xaml</DependentUpon>
     </Compile>

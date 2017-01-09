@@ -33,7 +33,8 @@ namespace BiletRezervasyonu
         {
             if (tcno.Text != "" && isim.Text != "")
             {
-                btn1.Name = tcno.Text + " " + isim.Text;
+                
+                btn1.Name = tcno.Text;
                 btn1.IsEnabled = false;
                 tcno.Text = "";
                 isim.Text = "";

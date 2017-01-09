@@ -8,7 +8,7 @@
 	Title="Salon">
 
     <Grid>
-        <ScrollViewer Margin="0,10,0,-10">
+        <ScrollViewer Margin="0,10,-197,-10">
             <StackPanel MinWidth="300">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -30,32 +30,32 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Button Name="btn1" Background="Green" Grid.Row="0" Margin="3" Height="20" Width="90" TextBlock.FontFamily="italic" Click="btn1_Click"></Button>
-                    <Button Name="btn6" Background="Green" Grid.Row="1" Margin="3" Height="20" Width="90"></Button>
-                    <Button Name="btn11" Background="Green" Grid.Row="2" Margin="3" Height="20" Width="90"></Button>
-                    <Button Name="btn16" Background="Green" Grid.Row="3" Margin="3" Height="20" Width="90"></Button>
-                    <Button Name="btn21" Background="Green" Grid.Row="4" Margin="3" Height="20" Width="90"></Button>
+                    <Button Name="btn1" Background="Green" Grid.Row="0" Margin="3" Height="20" Width="90" Click="btn1_Click"></Button>
+                    <Button Name="btn6" Background="Green" Grid.Row="1" Margin="3" Height="20" Width="90" Click="btn6_Click"></Button>
+                    <Button Name="btn11" Background="Green" Grid.Row="2" Margin="3" Height="20" Width="90" Click="btn11_Click"></Button>
+                    <Button Name="btn16" Background="Green" Grid.Row="3" Margin="3" Height="20" Width="90" Click="btn16_Click"></Button>
+                    <Button Name="btn21" Background="Green" Grid.Row="4" Margin="3" Height="20" Width="90" Click="btn21_Click"></Button>
 
-                    <Button Name="btn2" Background="Green" Grid.Row="0" Grid.Column="1" Margin="3" Width="90"></Button>
-                    <Button Name="btn3" Background="Green" Grid.Row="0" Grid.Column="2" Margin="3" Width="90"></Button>
-                    <Button Name="btn4" Background="Green" Grid.Row="0" Grid.Column="3" Margin="3" Width="90"></Button>
-                    <Button Name="btn5" Background="Green" Grid.Row="0" Grid.Column="4" Margin="3" Width="90"></Button>
-                    <Button Name="btn7" Background="Green" Grid.Row="1" Grid.Column="1" Margin="3"  Width="90"></Button>
-                    <Button Name="btn12" Background="Green" Grid.Row="2" Grid.Column="1" Margin="3" Width="90"></Button>
-                    <Button Name="btn17" Background="Green" Grid.Row="3" Grid.Column="1" Margin="3" Width="90"></Button>
-                    <Button Name="btn22" Background="Green" Grid.Row="4" Grid.Column="1" Margin="3" Width="90"></Button>
-                    <Button Name="btn8" Background="Green" Grid.Row="1" Grid.Column="2" Margin="3" Width="90"></Button>
-                    <Button Name="btn13" Background="Green" Grid.Row="2" Grid.Column="2" Margin="3" Width="90"></Button>
-                    <Button Name="btn18" Background="Green" Grid.Row="3" Grid.Column="2" Margin="3" Width="90"></Button>
-                    <Button Name="btn23" Background="Green" Grid.Row="4" Grid.Column="2" Margin="3" Width="90"></Button>
-                    <Button Name="btn9" Background="Green" Grid.Row="1" Grid.Column="3" Margin="3" Width="90"></Button>
-                    <Button Name="btn14" Background="Green" Grid.Row="2" Grid.Column="3" Margin="3" Width="90"></Button>
-                    <Button Name="btn19" Background="Green" Grid.Row="3" Grid.Column="3" Margin="3" Width="90"></Button>
-                    <Button Name="btn24" Background="Green" Grid.Row="4" Grid.Column="3" Margin="3" Width="90"></Button>
-                    <Button Name="btn10" Background="Green" Grid.Row="1" Grid.Column="4" Margin="3" Width="90"></Button>
-                    <Button Name="btn15" Background="Green" Grid.Row="2" Grid.Column="4" Margin="3" Width="90"></Button>
-                    <Button Name="btn20" Background="Green" Grid.Row="3" Grid.Column="4" Margin="3" Width="90"></Button>
-                    <Button Name="btn25" Background="Green" Grid.Row="4" Grid.Column="4" Margin="3" Width="90"></Button>
+                    <Button Name="btn2" Background="Green" Grid.Row="0" Grid.Column="1" Margin="3" Width="90" Click="btn2_Click"></Button>
+                    <Button Name="btn3" Background="Green" Grid.Row="0" Grid.Column="2" Margin="3" Width="90" Click="btn3_Click"></Button>
+                    <Button Name="btn4" Background="Green" Grid.Row="0" Grid.Column="3" Margin="3" Width="90" Click="btn4_Click"></Button>
+                    <Button Name="btn5" Background="Green" Grid.Row="0" Grid.Column="4" Margin="3" Width="90" Click="btn5_Click"></Button>
+                    <Button Name="btn7" Background="Green" Grid.Row="1" Grid.Column="1" Margin="3"  Width="90" Click="btn7_Click"></Button>
+                    <Button Name="btn12" Background="Green" Grid.Row="2" Grid.Column="1" Margin="3" Width="90" Click="btn12_Click"></Button>
+                    <Button Name="btn17" Background="Green" Grid.Row="3" Grid.Column="1" Margin="3" Width="90" Click="btn17_Click"></Button>
+                    <Button Name="btn22" Background="Green" Grid.Row="4" Grid.Column="1" Margin="3" Width="90" Click="btn22_Click"></Button>
+                    <Button Name="btn8" Background="Green" Grid.Row="1" Grid.Column="2" Margin="3" Width="90" Click="btn8_Click"></Button>
+                    <Button Name="btn13" Background="Green" Grid.Row="2" Grid.Column="2" Margin="3" Width="90" Click="btn13_Click"></Button>
+                    <Button Name="btn18" Background="Green" Grid.Row="3" Grid.Column="2" Margin="3" Width="90" Click="btn18_Click"></Button>
+                    <Button Name="btn23" Background="Green" Grid.Row="4" Grid.Column="2" Margin="3" Width="90" Click="btn23_Click"></Button>
+                    <Button Name="btn9" Background="Green" Grid.Row="1" Grid.Column="3" Margin="3" Width="90" Click="btn9_Click"></Button>
+                    <Button Name="btn14" Background="Green" Grid.Row="2" Grid.Column="3" Margin="3" Width="90" Click="btn14_Click"></Button>
+                    <Button Name="btn19" Background="Green" Grid.Row="3" Grid.Column="3" Margin="3" Width="90" Click="btn19_Click"></Button>
+                    <Button Name="btn24" Background="Green" Grid.Row="4" Grid.Column="3" Margin="3" Width="90" Click="btn24_Click"></Button>
+                    <Button Name="btn10" Background="Green" Grid.Row="1" Grid.Column="4" Margin="3" Width="90" Click="btn10_Click"></Button>
+                    <Button Name="btn15" Background="Green" Grid.Row="2" Grid.Column="4" Margin="3" Width="90" Click="btn15_Click"></Button>
+                    <Button Name="btn20" Background="Green" Grid.Row="3" Grid.Column="4" Margin="3" Width="90" Click="btn20_Click"></Button>
+                    <Button Name="btn25" Background="Green" Grid.Row="4" Grid.Column="4" Margin="3" Width="90" Click="btn25_Click"></Button>
 
 
                     <Button Grid.Row="5" Grid.ColumnSpan="5" Margin="10">PERDE</Button>
@@ -64,15 +64,17 @@
 
                     <Label Grid.Row="6" Margin="4">TCNo:</Label>
                     <Label Grid.Row="7" Margin="4">İsim:</Label>
-                    <Label Grid.Row="8" Margin="4">Rezerveİptal</Label>
 
-                    <TextBox Name="tcno" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5"></TextBox>
-                    <TextBox Name="isim" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5"></TextBox>
-                    <TextBox Name="iptal" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5"></TextBox>
-                    <Button Name="sil" Grid.Row="8" Grid.Column="2" Background="Red" Margin="2">Rezerveİptal</Button>
+                    <TextBox Name="tcno" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5" MaxLength="11" Height="20"></TextBox>
+                    <TextBox Name="isim" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5" MaxLength="15" Height="20"></TextBox>
+                    <TextBox Name="iptal" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="1" Background="Bisque" Margin="5" Height="20"></TextBox>
+                    <Button Name="sil" Grid.Row="6" Grid.Column="3" Background="Red" Margin="5" Click="sil_Click" Height="30">Rezerveİptal</Button>
                     
-                    <Label Name="lb1" Grid.Row="6" Grid.Column="3" Background="Green" Margin="5" Width="30"></Label>
-                    <Label Name="lb2" Grid.Row="7" Grid.Column="3" Background="Red" Margin="5" Width="30"></Label>
+                    <Label Name="lb1" Grid.Row="8" Grid.Column="1" Background="Green" Margin="5" Width="40">Boş</Label>
+                    <Label Name="lb2" Grid.Row="8" Grid.Column="3" Background="Red" Margin="5" Width="40">Dolu</Label>
+                    <TextBox Name="bos" Grid.Row="8" Grid.Column="2" Height="20" Margin="5"></TextBox>
+                    <TextBox Name="dolu" Grid.Row="8" Grid.Column="4" Height="20" Margin="5"></TextBox>
+                    
                     
                 </Grid>
             </StackPanel>

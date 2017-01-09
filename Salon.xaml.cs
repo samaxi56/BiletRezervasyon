@@ -39,8 +39,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--; 
-                lb3.Content = "Boş:" + i.ToString();
-                lb4.Content = "Dolu:" + x.ToString();
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -58,7 +58,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
-
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
             else
             {
@@ -76,6 +77,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -95,6 +98,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -114,6 +119,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -132,6 +139,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -150,6 +159,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -168,6 +179,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -186,6 +199,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -204,6 +219,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -222,6 +239,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -240,6 +259,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -258,6 +279,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -276,6 +299,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -294,6 +319,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -312,6 +339,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -330,6 +359,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -348,6 +379,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -366,6 +399,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -384,8 +419,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
-                lb3.Content = "Boş" + i.ToString();
-                lb4.Content = "Dolu" + x.ToString();
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
             else
             {
@@ -403,6 +438,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -421,6 +458,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -439,6 +478,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -457,6 +498,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -475,6 +518,8 @@ namespace BiletRezervasyonu
                 isim.Text = "";
                 i++;
                 x--;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
 
             }
             else
@@ -489,6 +534,10 @@ namespace BiletRezervasyonu
                 btn1.Content = "";
                 btn1.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
             else if (iptal.Text == btn2.Content.ToString())
             {

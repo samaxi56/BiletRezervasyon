@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Drawing.Configuration;
+using System.Drawing;
 
 
 
@@ -59,6 +60,7 @@ namespace BiletRezervasyonu
             btn23.Background = new SolidColorBrush(Colors.Green);
             btn24.Background = new SolidColorBrush(Colors.Green);
             btn25.Background = new SolidColorBrush(Colors.Green);
+
         }
 
         private void btn1_Click(object sender, RoutedEventArgs e)
@@ -66,8 +68,8 @@ namespace BiletRezervasyonu
 
             if (rezerveno.Text != "" && isim.Text != "")
             {
-                btn1.Content = rezerveno.Text + " " + isim.Text;
                 btn1.Background = new SolidColorBrush(Colors.Red);
+                btn1.Content = rezerveno.Text + " " + isim.Text;
                 btn1.IsEnabled = false;
                 rezerveno.Text = "";
                 isim.Text = "";
@@ -80,6 +82,7 @@ namespace BiletRezervasyonu
             {
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
+
             Random rnd = new Random();
             double sayi = rnd.Next(1 * 1000);
             rezerveno.Text = Convert.ToString(sayi);

@@ -240,7 +240,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 67 "..\..\Salon.xaml"
+        #line 66 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox rezerveno;
         
@@ -248,7 +248,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 68 "..\..\Salon.xaml"
+        #line 67 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox isim;
         
@@ -256,7 +256,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 69 "..\..\Salon.xaml"
+        #line 68 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox iptal;
         
@@ -264,7 +264,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 70 "..\..\Salon.xaml"
+        #line 69 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button sil;
         
@@ -272,7 +272,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 72 "..\..\Salon.xaml"
+        #line 71 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lb1;
         
@@ -280,7 +280,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 73 "..\..\Salon.xaml"
+        #line 72 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lb2;
         
@@ -288,7 +288,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 74 "..\..\Salon.xaml"
+        #line 73 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lb3;
         
@@ -296,7 +296,7 @@ namespace BiletRezervasyonu {
         #line hidden
         
         
-        #line 75 "..\..\Salon.xaml"
+        #line 74 "..\..\Salon.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lb4;
         
@@ -570,7 +570,7 @@ namespace BiletRezervasyonu {
             case 29:
             this.sil = ((System.Windows.Controls.Button)(target));
             
-            #line 70 "..\..\Salon.xaml"
+            #line 69 "..\..\Salon.xaml"
             this.sil.Click += new System.Windows.RoutedEventHandler(this.sil_Click);
             
             #line default

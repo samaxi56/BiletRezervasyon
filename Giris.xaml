@@ -7,7 +7,7 @@
       d:DesignHeight="300" d:DesignWidth="300"
 	Title="Giris">
 
-    <Grid HorizontalAlignment="Center">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
@@ -20,7 +20,7 @@
         <TextBlock HorizontalAlignment="Center" Grid.Row="1" FontStyle="Italic">Yönetici Girişi:</TextBlock>
         <TextBox Name="txt5" Grid.Row="2" Margin="3" Width="200"></TextBox>
         <PasswordBox Name="psw5" Grid.Row="3" Margin="3" Width="200"></PasswordBox>
-        <Button Grid.Row="4" Width="150" Height="35" Background="Red" Click="Button_Click_1">Giriş</Button>
+        <Button Grid.Row="4" Width="150" Height="35" Background="Red" BorderBrush="Black" BorderThickness="1" Click="Button_Click_1">Giriş</Button>
     </Grid>
 
 </Page>

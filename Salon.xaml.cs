@@ -13,8 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
-
 namespace BiletRezervasyonu
 {
     /// <summary>
@@ -27,8 +25,7 @@ namespace BiletRezervasyonu
         {
             InitializeComponent();
         }
-
-
+        
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
             if (tcno.Text != "" && isim.Text != "")
@@ -48,6 +45,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("TcNo ve isim giriniz");
             }
         }
+
         private void btn2_Click(object sender, RoutedEventArgs e)
         {
             if (tcno.Text != "" && isim.Text != "")
@@ -161,7 +159,6 @@ namespace BiletRezervasyonu
                 x--;
                 lb3.Content = "Boş:" + x.ToString();
                 lb4.Content = "Dolu:" + i.ToString();
-
             }
             else
             {
@@ -529,7 +526,7 @@ namespace BiletRezervasyonu
         }
         private void sil_Click(object sender, RoutedEventArgs e)
         {
-            if (iptal.Text==btn2.Content.ToString())
+            if (iptal.Text==Convert.ToString(btn1.Content))
             {
                 btn1.Content = "";
                 btn1.IsEnabled = true;
@@ -539,143 +536,245 @@ namespace BiletRezervasyonu
                 lb3.Content = "Boş:" + x.ToString();
                 lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn2.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn2.Content))
             {
                 btn2.Content = "";
                 btn2.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn3.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn3.Content))
             {
                 btn3.Content = "";
                 btn3.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn4.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn4.Content))
             {
                 btn4.Content = "";
                 btn4.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn5.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn5.Content))
             {
                 btn5.Content = "";
                 btn5.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn6.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn6.Content))
             {
                 btn6.Content = "";
                 btn6.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn7.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn7.Content))
             {
                 btn7.Content = "";
                 btn7.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn8.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn8.Content))
             {
                 btn8.Content = "";
                 btn8.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn9.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn9.Content))
             {
                 btn9.Content = "";
                 btn9.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn10.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn10.Content))
             {
                 btn10.Content = "";
                 btn10.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn11.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn11.Content))
             {
                 btn11.Content = "";
                 btn11.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn12.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn12.Content))
             {
                 btn12.Content = "";
                 btn12.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn13.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn13.Content))
             {
                 btn13.Content = "";
                 btn13.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn14.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn14.Content))
             {
                 btn14.Content = "";
                 btn14.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn15.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn15.Content))
             {
                 btn15.Content = "";
                 btn15.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn16.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn16.Content))
             {
                 btn16.Content = "";
                 btn16.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn17.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn17.Content))
             {
                 btn17.Content = "";
                 btn17.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn19.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn18.Content))
+            {
+                btn18.Content = "";
+                btn18.IsEnabled = true;
+                iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
+            }
+            else if (iptal.Text ==Convert.ToString(btn19.Content))
             {
                 btn19.Content = "";
                 btn19.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn20.Content.ToString())
+            else if (iptal.Text == Convert.ToString(btn20.Content))
             {
                 btn20.Content = "";
                 btn20.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn21.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn21.Content))
             {
                 btn21.Content = "";
                 btn21.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn22.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn22.Content))
             {
                 btn22.Content = "";
                 btn22.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn23.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn23.Content))
             {
                 btn23.Content = "";
                 btn23.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn24.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn24.Content))
             {
                 btn24.Content = "";
                 btn24.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
-            else if (iptal.Text == btn25.Content.ToString())
+            else if (iptal.Text ==Convert.ToString(btn25.Content))
             {
                 btn25.Content = "";
                 btn25.IsEnabled = true;
                 iptal.Text = "";
+                i--;
+                x++;
+                lb3.Content = "Boş:" + x.ToString();
+                lb4.Content = "Dolu:" + i.ToString();
             }
         }
     }

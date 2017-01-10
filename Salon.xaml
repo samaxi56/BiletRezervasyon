@@ -21,7 +21,6 @@
                         <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
-                        <RowDefinition/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto"/>
@@ -30,7 +29,7 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Button Name="btn1" Background="Green" Grid.Row="0" Margin="3" Height="20" Width="90" Click="btn1_Click"></Button>
+                    <Button Name="btn1" Background="green" Grid.Row="0" Margin="3" Height="20" Width="90" Click="btn1_Click"></Button>
                     <Button Name="btn6" Background="Green" Grid.Row="1" Margin="3" Height="20" Width="90" Click="btn6_Click"></Button>
                     <Button Name="btn11" Background="Green" Grid.Row="2" Margin="3" Height="20" Width="90" Click="btn11_Click"></Button>
                     <Button Name="btn16" Background="Green" Grid.Row="3" Margin="3" Height="20" Width="90" Click="btn16_Click"></Button>
@@ -58,20 +57,20 @@
                     <Button Name="btn25" Background="Green" Grid.Row="4" Grid.Column="4" Margin="3" Width="90" Click="btn25_Click"></Button>
 
 
-                    <Button Grid.Row="5" Grid.ColumnSpan="5" Margin="10">PERDE</Button>
+                    <Label Grid.Row="5" Grid.ColumnSpan="5" Margin="10" HorizontalAlignment="Center">PERDE</Label>
                         
                     
 
-                    <Label Grid.Row="6" Margin="4">TCNo:</Label>
+                    <Label Grid.Row="6" Margin="4">RezerveNo:</Label>
                     <Label Grid.Row="7" Margin="4">İsim:</Label>
 
-                    <TextBox Name="tcno" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5" MaxLength="11" Height="20"></TextBox>
+                    <TextBox Name="tcno" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5" MaxLength="5" Height="20"></TextBox>
                     <TextBox Name="isim" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Background="Bisque" Margin="5" MaxLength="15" Height="20"></TextBox>
                     <TextBox Name="iptal" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="1" Background="Bisque" Margin="5" Height="20"></TextBox>
                     <Button Name="sil" Grid.Row="6" Grid.Column="3" Background="Red" Margin="5" Click="sil_Click" Height="30">Rezerveİptal</Button>
                     
-                    <Label Name="lb1" Grid.Row="7" Grid.Column="3" Background="Green" Margin="5" Width="40">Boş</Label>
-                    <Label Name="lb2" Grid.Row="8" Grid.Column="3" Background="Red" Margin="5" Width="40">Dolu</Label>
+                    <Label Name="lb1" Grid.Row="7" Grid.Column="3" Background="Green" Margin="5" Width="40" Height="25"></Label>
+                    <Label Name="lb2" Grid.Row="8" Grid.Column="3" Background="Red" Margin="5" Width="40" Height="25"></Label>
                     <Label Name="lb3" Grid.Row="7" Grid.Column="4"></Label>
                     <Label Name="lb4" Grid.Row="8" Grid.Column="4"></Label>
                     

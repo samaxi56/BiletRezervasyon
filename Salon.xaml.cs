@@ -32,7 +32,7 @@ namespace BiletRezervasyonu
             lb4.Content = "Dolu:" + i.ToString();
 
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
 
             btn1.Background = new SolidColorBrush(Colors.Green);
@@ -68,7 +68,6 @@ namespace BiletRezervasyonu
 
             if (rezerveno.Text != "" && isim.Text != "")
             {
-                btn1.Background = new SolidColorBrush(Colors.Red);
                 btn1.Content = rezerveno.Text + " " + isim.Text;
                 btn1.IsEnabled = false;
                 rezerveno.Text = "";
@@ -84,7 +83,7 @@ namespace BiletRezervasyonu
             }
 
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -106,7 +105,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -129,7 +128,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
 
         }
@@ -153,7 +152,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
 
         }
@@ -177,7 +176,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -200,7 +199,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -222,7 +221,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -245,7 +244,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -268,7 +267,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -291,7 +290,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -314,7 +313,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -337,7 +336,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -360,7 +359,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -383,7 +382,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -406,7 +405,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -429,7 +428,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -452,7 +451,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
 
         }
@@ -476,7 +475,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -499,7 +498,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -521,7 +520,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -544,7 +543,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -567,7 +566,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -590,7 +589,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -613,7 +612,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
 
@@ -636,7 +635,7 @@ namespace BiletRezervasyonu
                 MessageBox.Show("rezerveno ve isim giriniz");
             }
             Random rnd = new Random();
-            double sayi = rnd.Next(1 * 1000);
+            double sayi = rnd.Next(1000 , 5000);
             rezerveno.Text = Convert.ToString(sayi);
         }
         private void sil_Click(object sender, RoutedEventArgs e)

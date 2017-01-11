@@ -8,7 +8,7 @@
 	Title="Salon">
 
     <Grid>
-        <ScrollViewer Margin="0,10,-197,-10">
+        <ScrollViewer Margin="0,10,-197,-20">
             <StackPanel MinWidth="300">
                 <Grid>
                     <Grid.RowDefinitions>
@@ -29,6 +29,7 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
+                    
                     <Button Name="btn1" Grid.Row="0" Margin="3" Height="20" Width="90" Click="btn1_Click"></Button>
                     <Button Name="btn6" Grid.Row="1" Margin="3" Height="20" Width="90" Click="btn6_Click"></Button>
                     <Button Name="btn11" Grid.Row="2" Margin="3" Height="20" Width="90" Click="btn11_Click"></Button>
@@ -56,7 +57,6 @@
                     <Button Name="btn20" Grid.Row="3" Grid.Column="4" Margin="3" Width="90" Click="btn20_Click"></Button>
                     <Button Name="btn25" Grid.Row="4" Grid.Column="4" Margin="3" Width="90" Click="btn25_Click"></Button>
 
-
                     <Label Grid.Row="5" Grid.ColumnSpan="5" Margin="10" HorizontalAlignment="Center">PERDE</Label>
                         
                     
@@ -69,8 +69,8 @@
                     <TextBox Name="iptal" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="1" Background="Bisque" Margin="5" Height="20"></TextBox>
                     <Button Name="sil" Grid.Row="6" Grid.Column="3" Background="Red" Margin="5" Click="sil_Click" Height="30">Rezerveİptal</Button>
                     
-                    <Label Name="lb1" Grid.Row="7" Grid.Column="3" Background="Green" Margin="5" Width="40" Height="25"></Label>
-                    <Label Name="lb2" Grid.Row="8" Grid.Column="3" Background="Red" Margin="5" Width="40" Height="25"></Label>
+                    <Label Name="lb1" Grid.Row="7" Grid.Column="3" Background="Green" Margin="5" Width="30" Height="20"></Label>
+                    <Label Name="lb2" Grid.Row="8" Grid.Column="3" Background="LightBlue" Margin="5" Width="30" Height="20"></Label>
                     <Label Name="lb3" Grid.Row="7" Grid.Column="4"></Label>
                     <Label Name="lb4" Grid.Row="8" Grid.Column="4"></Label>
                     

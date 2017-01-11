@@ -15,12 +15,19 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="2">Kullanıcı Adı:</Label>
+        <Label Grid.Row="3">Şifre:</Label>
 
-        <Label HorizontalAlignment="Center" FontStyle="Normal">BİLET REZERVASYON</Label>
-        <TextBlock HorizontalAlignment="Center" Grid.Row="1" FontStyle="Italic">Yönetici Girişi:</TextBlock>
-        <TextBox Name="txt5" Grid.Row="2" Margin="3" Width="200"></TextBox>
-        <PasswordBox Name="psw5" Grid.Row="3" Margin="3" Width="200"></PasswordBox>
-        <Button Grid.Row="4" Width="150" Height="35" Background="Red" BorderBrush="Black" BorderThickness="1" Click="Button_Click_1">Giriş</Button>
+        <Label  Grid.Column="1" HorizontalAlignment="Center" FontStyle="Normal">BİLET REZERVASYON</Label>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" FontStyle="Italic">Yönetici Girişi:</TextBlock>
+        <TextBox  Grid.Column="1" Name="txt5" Grid.Row="2" Margin="3" Width="200"></TextBox>
+        <PasswordBox Grid.Column="1" Name="psw5" Grid.Row="3" Margin="3" Width="200"></PasswordBox>
+        <Button Grid.Row="4" Grid.Column="1" Width="150" Height="35" Background="Red" BorderBrush="Black" BorderThickness="1" Click="Button_Click_1">Giriş</Button>
     </Grid>
 
 </Page>
